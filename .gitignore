@@ -11,6 +11,7 @@
 # production
 /build
 
+/data.txt
 # misc
 .env
 .DS_Store

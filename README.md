@@ -16,7 +16,7 @@ _Code Sync web app is a code editor that allows its users to collaborate and wri
   * react-hot-toast
   * axios
   * react-router
-  
+
   **Backend**
   * Node.js
   * Express.js
