@@ -1,6 +1,11 @@
 const express = require('express');
 const app = express();
 
+
+app.get("/", (req, res) => {
+    res.send("Backend  API is running...");
+})
+
 const http = require('http');
 const path = require('path');
 const { Server } = require('socket.io');
