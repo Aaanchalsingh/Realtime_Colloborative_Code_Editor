@@ -2,9 +2,6 @@ const express = require('express');
 const app = express();
 
 
-app.get("/", (req, res) => {
-    res.send("Backend  API is running...");
-})
 
 const http = require('http');
 const path = require('path');
@@ -32,6 +29,9 @@ function getAllConnectedClients(roomId) {
 }
 
 
+app.get("/", (req, res) => {
+    res.send("Backend  API is running...");
+})
 
 io.on('connection', (socket) => {
     console.log('socket connected', socket.id);
