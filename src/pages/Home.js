@@ -39,11 +39,7 @@ const Home = () => {
     return (
         <div className="homePageWrapper">
             <div className="formWrapper">
-                <img
-                    className="homePageLogo"
-                    src="/code-sync.png"
-                    alt="code-sync-logo"
-                />
+                <h1 className="homePageLogo"> CODE COLLABORATE</h1>
                 <h4 className="mainLabel">Paste invitation ROOM ID</h4>
                 <div className="inputGroup">
                     <input
@@ -77,12 +73,6 @@ const Home = () => {
                     </span>
                 </div>
             </div>
-            <footer>
-                <h4>
-                    Built with 💛 by &nbsp;
-                    <a href="https://github.com/Aaanchalsingh" target="_blank" rel="noopener noreferrer">Aanchal Singh</a>
-                </h4>
-            </footer>
         </div>
     );
 };

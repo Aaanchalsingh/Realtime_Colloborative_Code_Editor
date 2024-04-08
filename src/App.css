@@ -7,7 +7,7 @@
 }
 
 .formWrapper {
-    background: #282a36;
+    background: #070f3f;
     padding: 20px;
     border-radius: 10px;
     width: 400px;
@@ -36,6 +36,8 @@ footer a {
 .homePageLogo {
     height: 80px;
     margin-bottom: 30px;
+    font-size: 1.5rem;
+    text-align: center;
 }
 
 .inputBox {
@@ -61,7 +63,7 @@ footer a {
 
 .joinBtn,
 .leaveBtn {
-    background: #4aed88;
+    background: #08dfea;
     width: 100px;
     margin-left: auto;
 }
@@ -77,9 +79,9 @@ footer a {
 }
 
 .createNewBtn {
-    color: #4aed88;
+    color: #08dfea;
     text-decoration: none;
-    border-bottom: 1px solid #4aed88;
+    border-bottom: 1px solid #08dfea;
     transition: all 0.3s ease-in-out;
 }
 
@@ -104,7 +106,7 @@ footer a:hover {
 }
 
 .aside {
-    background: #1c1e29;
+    background: #02082f;
     padding: 16px;
     color: #fff;
     display: flex;
